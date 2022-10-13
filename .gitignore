@@ -1,0 +1,8 @@
+# Compiled files
+/target
+
+# Custom config files
+/data/custom
+
+# Random generated files
+*.html

@@ -1,0 +1,20 @@
+[package]
+name = "rs-sudoku"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+colored = "2.0.0"
+rand = "0.8.5"
+lazy_static = "1.4.0"
+chrono = "0.4.22"
+regex = "1.6.0"
+serde_json = "1.0"
+serde = {version = "1.0", features = ["derive"]}
+
+[dependencies.sdl2]
+version = "0.35.2"
+default-features = false
+features = ["image", "unsafe_textures", "ttf"]
